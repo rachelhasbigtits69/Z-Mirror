@@ -396,14 +396,8 @@ Timeout: 60 sec
             buttons.ibutton("Close", f"userset {user_id} close")
         rmsg = f'''
 Send Leech Prefix. Timeout: 60 sec
-Examples:
-1. <code>{escape('<b>Join: @Z_Mirror</b>')}</code> 
-This will give output as:
-<b>Join: @Z_Mirror</b>  <code>69MB.bin</code>.
 
-2. <code>{escape('<code>Join: @Z_Mirror</code>')}</code> 
-This will give output as:
-<code>Join: @Z_Mirror</code> <code>69MB.bin</code>.
+
 
 Check all available formatting options <a href="https://core.telegram.org/bots/api#formatting-options">HERE</a>.
         '''
